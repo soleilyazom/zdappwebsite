@@ -1,0 +1,1235 @@
+body {
+  /* #fffaac 150% */
+}
+.homepagecontainer {
+  height: 100vh;
+}
+.a {
+  /* background: linear-gradient(
+    to right,
+    #f9f9f9 50%,
+
+    #4de4bf 250%
+  ); */
+  /* bfffac */
+
+  right: 1px;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+
+  background: linear-gradient(180deg, #fffaac 0%, #4de4bf 64.58%, #11bcd3 100%);
+  opacity: 0.41;
+  box-shadow: inset 0px -4px 10px rgba(0, 0, 0, 0.25);
+  filter: blur(150px);
+
+  overflow-x: hidden;
+}
+.p {
+  right: 1px;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+
+  /* background: linear-gradient(180deg, #fffaac 0%, #4de4bf 64.58%, #11bcd3 100%); */
+  opacity: 0.41;
+  box-shadow: inset 0px -4px 10px rgba(0, 0, 0, 0.25);
+  filter: blur(150px);
+
+  overflow-x: hidden;
+  border-radius: 40px 40px 0px 0px;
+}
+.logo {
+  margin-right: 50px;
+}
+.searchbar {
+  width: 281px;
+  height: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  border: 2px solid #55e9bc;
+  position: relative;
+}
+
+.searchdiv {
+  position: relative;
+}
+.searchiconmobilediv {
+  position: absolute;
+  background: white;
+
+  top: 28px;
+  /* margin-left: 20%; */
+  width: 30px;
+  padding-left: 7px;
+  padding-top: 2px;
+  height: 30px;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+}
+.searchbarmobile2 {
+  width: 281px;
+  height: 50px;
+  border-radius: 50px;
+  background: transparent !important;
+  border: none;
+  position: relative;
+  /* margin-left: 25%; */
+}
+.searchbarmobile2::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+.title3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height, or 118% */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+.backgrounddiv {
+  background: white;
+
+  width: 30px;
+  padding-left: 7px;
+  padding-top: 2px;
+  height: 30px;
+  border-radius: 50px;
+}
+.searchiconmobile2 {
+  /* right: 120px;
+  bottom: 50px; */
+  width: 15px;
+  height: 15px;
+}
+
+.searchbarbycountry {
+  width: 789px;
+  height: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  border: 2px solid #55e9bc;
+}
+.searchbarbycountrymobile {
+  width: 100%;
+  border-radius: 50px;
+  background: #ffffff;
+  border: 2px solid #55e9bc;
+  position: relative;
+}
+
+.searchbarbycountrymobile::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-indent: 30px;
+  letter-spacing: 0.04em;
+
+  color: rgba(24, 91, 107, 0.5);
+}
+
+.searchbar::placeholder,
+.searchbarbycountry::placeholder {
+  color: #185b6b !important;
+  font-size: 14px;
+  text-indent: 30px;
+  font-weight: 600;
+}
+.searchiconmobile1 {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+
+.searchicon {
+  position: absolute;
+  right: 120px;
+  bottom: 50px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.mytooltipmobile {
+}
+
+.searchbarmobile {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+  border: none;
+  position: relative;
+}
+.searchiconmobile {
+  position: absolute;
+  /* right: 100px; */
+  bottom: 30px;
+}
+.searchbarmobile::placeholder {
+  color: #185b6b !important;
+  font-size: 16px;
+  text-indent: 30px;
+  font-weight: 600;
+}
+
+.mytooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.mytooltip2:hover .tooltiptext {
+  visibility: visible;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.navplans,
+.navregion,
+.navservice {
+  margin-left: 10px;
+  color: #185b6b;
+  font-size: 14px;
+  display: none;
+  /* transition: opacity 1s ease;
+  opacity: 0;
+  height: 0;
+  overflow: hidden; */
+}
+
+.navplans2,
+.navregion2,
+.navservice2 {
+  margin-left: 10px;
+  color: #185b6b;
+  font-size: 14px;
+
+  /* transition: opacity 1s ease;
+  opacity: 0;
+  height: 0;
+  overflow: hidden; */
+}
+
+.navplans3,
+.navregion3,
+.navservice3 {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+.plans,
+.regions,
+.services {
+  background-color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.plans:hover span,
+.regions:hover span,
+.services:hover span {
+  /* opacity: 1;
+  height: auto; */
+  display: inline;
+}
+
+.mynav {
+  padding: 20px 70px;
+}
+.searchnav {
+  background: linear-gradient(
+    to right,
+    #f9f9f9 50%,
+
+    #bfffac 190%
+  );
+}
+.modal-fullscreen {
+  width: 100% !important;
+}
+#section1 {
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+#section1 .mycol1 {
+  width: 40%;
+}
+#section1 .mycol2 {
+  width: 60%;
+  text-align: end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+#section1 .row {
+  margin: 0 !important;
+}
+
+#section1 .title {
+  color: #185b6b;
+  font-size: 34px;
+  font-family: 800;
+}
+
+#section1 .desc {
+  color: #185b6b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  /* or 200% */
+
+  letter-spacing: 0.04em;
+}
+
+#section1 .desc span {
+  background-color: rgb(253, 253, 159);
+}
+
+.mytooltip2 {
+  position: relative;
+}
+
+.btn1 {
+  color: #fff;
+  font-size: 14px;
+  width: 230px;
+  height: 51px;
+  background: #185b6b;
+  border-radius: 5px;
+  line-height: 17px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border: none;
+  margin-left: 70px;
+  /* margin-top: 100px; */
+}
+
+footer div {
+  text-align: end;
+  margin-right: 70px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+  padding-bottom: 50px;
+}
+
+.arrowicon {
+  margin-left: 20px;
+}
+.mobile {
+  display: none;
+}
+
+#searchsection {
+  background: linear-gradient(to right, #fff 50%, #4de4bf 250%);
+  height: 100vh;
+  width: 100%;
+  border-radius: 40px 40px 0 0;
+  box-shadow: 0px 1px 1px #d1cccc, 0px -1px 1px #d1cccc;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#searchsection .r1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchsection .r1 span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+#searchsection .mycards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#searchsection .mycards .mycard {
+  margin-top: 30px;
+  width: 571px;
+  height: 194px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  border-radius: 15px;
+}
+#searchsection .mycards .mycard .data {
+  padding-top: 20px;
+}
+#searchsection .mycards .mycard .data .name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  font-style: normal;
+  color: #185b6b;
+}
+
+#searchsection .mycards .mycard .data .line {
+  width: 23px;
+  height: 0px;
+
+  margin: 7px;
+  border: 0.5px solid #185b6b;
+  transform: rotate(90deg);
+}
+
+#searchsection .mycards .mycard .data .type {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #185b6b;
+}
+#searchsection .mycards .mycard .km {
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+#searchsection .mycards .mycard .time {
+  margin-left: 5px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+#searchsection .mycards .mycard .available {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+
+  color: #185b6b;
+}
+
+#searchsection .mycards .mycard .plan {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #198e81;
+}
+
+@media screen and (max-width: 1000px) {
+  .artimg {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mynav {
+    padding: 0 30px;
+  }
+  body {
+    background: white !important;
+  }
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #section1 .mycol1 {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  #section1 .mycol2 {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .artimg {
+    width: 300px;
+  }
+
+  .btn1 {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #section1 .desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    letter-spacing: 0.04em;
+
+    color: #185b6b;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .artimg {
+    width: 287px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+.animate-bottom {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.animate-bottom2 {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.modal {
+  /* margin-top: 100px; */
+  /* height: 70%; */
+}
+mb-3 .closebtn {
+  padding-right: 50px;
+  border: none;
+}
+.modal .data {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.modal-body {
+  background: linear-gradient(
+    to right,
+    #ffffff 50%,
+
+    #4de4bf 250%
+  );
+
+  /* background: rgba(255, 255, 255, 0.7); */
+  backdrop-filter: blur(80px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 0px 1px 1px #d1cccc, 0px -1px 1px #d1cccc;
+
+  border-radius: 40px 40px 0px 0px;
+}
+.navbar-toggler {
+  border: none;
+}
+.mynav3 {
+  background: linear-gradient(
+    to right,
+    #f9f9f9 50%,
+
+    #bfffac 190%
+  );
+}
+.mynav4 {
+  background: white;
+}
+.modalleft {
+  transform: translate3d(-25%, 0, 0);
+}
+.modal .data .title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height, or 118% */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+.modal .data .c1 {
+  width: 40%;
+}
+.modal .data .c2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .data .c1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+.regioncontainer .data .c1 {
+  width: 40%;
+}
+.regioncontainer .data .c2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regioncontainer .data .c1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+.modal .data .mycards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.modal .data .mycards .mycard {
+  margin-top: 30px;
+
+  width: 571px;
+  height: 196px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 30px;
+  border-radius: 15px;
+}
+
+.modal .data .mycards .mycard .data2 .name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  font-style: normal;
+  color: #185b6b;
+  margin-bottom: 10px;
+}
+
+.modal .data .mycards .mycard .km {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #11bcd3;
+}
+.modal .data .mycards .mycard .time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #11bcd3;
+}
+
+.modal .data .mycards .mycard .available {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+  width: 349px;
+  height: 40px;
+}
+
+.logo3 {
+  width: 70px;
+  height: 70px;
+  margin: 0 50px;
+}
+
+.regioncontainer {
+  overflow-y: hidden;
+}
+.regioncontainer .data {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 100px;
+  overflow-y: hidden;
+}
+
+.regioncontainer .data .mycards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.regioncontainer .data .mycards .mycard {
+  margin-top: 30px;
+
+  width: 571px;
+  height: 196px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 30px;
+  border-radius: 15px;
+}
+
+.regioncontainer .data .mycards .mycard .data2 .name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  font-style: normal;
+  color: #185b6b;
+  margin-bottom: 10px;
+}
+
+.regioncontainer .data .mycards .mycard .km {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #11bcd3;
+}
+.regioncontainer .data .mycards .mycard .time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #11bcd3;
+}
+
+.regioncontainer .data .mycards .mycard .available {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+  width: 349px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1330px) {
+  .modal .data .mycards .mycard {
+    width: 501px;
+  }
+  .regioncontainer .data .mycards .mycard {
+    width: 501px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .modal .data .mycards .mycard {
+    width: 450px;
+  }
+  .logo3 {
+    margin: 0 20px;
+  }
+  .regioncontainer .data .mycards .mycard {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .modal .data .mycards .mycard {
+    width: 400px;
+  }
+  .regioncontainer .data .mycards .mycard {
+    width: 400px;
+  }
+
+  .logo3 {
+    margin: 0 20px;
+  }
+  .modal .data .c1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #185b6b;
+  }
+
+  .regioncontainer .data .c1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #185b6b;
+  }
+
+  .modal .data .mycards .mycard .data2 .name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .modal .data .mycards .mycard .km {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .modal .data .mycards .mycard .time {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .modal .data .mycards .mycard .available {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+
+    color: #185b6b;
+    width: 200px;
+    height: 45px;
+  }
+
+  .regioncontainer .data .mycards .mycard .data2 .name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .regioncontainer .data .mycards .mycard .km {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .regioncontainer .data .mycards .mycard .time {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .regioncontainer .data .mycards .mycard .available {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+
+    color: #185b6b;
+    width: 200px;
+    height: 45px;
+  }
+}
+.mobileclosebtn {
+  display: none !important;
+}
+.mobileclosebtn .mobiletitle {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+@media screen and (max-width: 990px) {
+  .modal .data .mycards .mycard {
+    width: 400px;
+    height: 200px;
+  }
+
+  .regioncontainer .data .mycards .mycard {
+    width: 400px;
+    height: 200px;
+  }
+  .logo3 {
+    margin: 0 20px;
+  }
+
+  .modal .data .c1 {
+    width: 100%;
+  }
+
+  .modal .data .c2 {
+    display: none;
+  }
+
+  .regioncontainer .data .c1 {
+    width: 100%;
+  }
+
+  .regioncontainer .data .c2 {
+    display: none;
+  }
+
+  .desktopclosebtn {
+    display: none !important;
+  }
+  .mobileclosebtn {
+    display: flex !important;
+  }
+  .closebtn {
+    padding: 0px;
+    border: none;
+  }
+  .mynav {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mynav {
+    padding: 0 20px;
+    padding-right: 0;
+  }
+  .navbar-toggler {
+    padding: 0 !important;
+  }
+  .modal .data {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .regioncontainer .data {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal .data .mycards .mycard {
+    width: 335px;
+    height: 181px;
+  }
+
+  .regioncontainer .data .mycards .mycard {
+    width: 335px;
+    height: 181px;
+  }
+  .modal-body {
+    border-radius: 0 !important;
+  }
+  #searchsection .mycards,
+  .regioncontainer .data .mycards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mynav3,
+  .searchnav {
+    background: white !important;
+  }
+  /* .modal-body {
+    background: linear-gradient(to bottom, #ffffff 50%, #4de4bf 250%);
+  } */
+}
+.countries {
+  margin-top: 40px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+}
+.title2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+.country {
+  display: flex;
+  margin-top: 15px;
+}
+.country p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+
+.map {
+  width: 75%;
+}
+
+@media screen and (max-width: 550px) {
+  .map {
+    width: 100%;
+  }
+  .animate-bottom {
+    position: relative;
+    animation: none;
+  }
+
+  .modal.right_modal .modal-dialog {
+    transform: translate3d(0%, 0, 0);
+  }
+
+  .modal.right_modal.fade .modal-dialog {
+    transition: opacity 0.3s linear, right 0.9s ease-out;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #searchsection .mycards .mycard {
+    width: 500px;
+    height: 194px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #searchsection .mycards .mycard {
+    width: 460px;
+    height: 194px;
+  }
+
+  #searchsection .mycards .mycard .data .name {
+    font-size: 14px;
+  }
+
+  #searchsection .mycards .mycard .data .type {
+    font-size: 14px;
+  }
+  #searchsection .mycards .mycard .km {
+    font-size: 16px;
+  }
+  #searchsection .mycards .mycard .time {
+    font-size: 16px;
+  }
+
+  #searchsection .mycards .mycard .available {
+    font-size: 14px;
+  }
+
+  #searchsection .mycards .mycard .plan {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #searchsection .mycards .mycard {
+    width: 425px;
+    height: 194px;
+  }
+  #searchsection .mycards .mycard .data {
+    padding-top: 20px;
+  }
+  #searchsection .mycards .mycard .data .name {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #searchsection .mycards .mycard .data .line {
+    width: 23px;
+    height: 0px;
+
+    margin: 7px;
+    border: 0.5px solid #185b6b;
+    transform: rotate(90deg);
+  }
+
+  #searchsection .mycards .mycard .data .type {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #searchsection .mycards .mycard .km {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #searchsection .mycards .mycard .time {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #searchsection .mycards .mycard .available {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #searchsection .mycards .mycard .plan {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  #searchsection .mycards .mycard {
+    width: 375px;
+    height: 194px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #searchsection .mycards .mycard {
+    width: 335px;
+    height: 194px;
+  }
+  #searchsection {
+    background: white;
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mytooltip2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    margin-left: 0;
+    /* margin-top: 100px; */
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .searchbarbycountry {
+    width: 700px;
+    height: 50px;
+  }
+}
+.mobiletitle2 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #185b6b;
+}
+@media screen and (max-width: 1100px) {
+  .searchbarbycountry {
+    width: 500px;
+    height: 50px;
+  }
+}
+
+#myModal4 .modal-body {
+  background: linear-gradient(
+    to bottom,
+    #f9f9f9 50%,
+
+    #4de4bf 250%
+  );
+}
+/*
+#myModal4 .nav-item {
+  margin-left: 25%;
+} */
+
+#myModal4 {
+  overflow: hidden !important;
+}
+
+#myModal4 .plans,
+#myModal4 .regions,
+#myModal4 .services {
+  background-color: transparent;
+  border-radius: 50px;
+  margin-right: 10px;
+}

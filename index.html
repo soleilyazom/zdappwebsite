@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ZOM</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="a"></div>
+    <div class="homepage">
+      <div class="homepagecontainer">
+        <nav class="navbar navbar-expand-lg">
+          <div class="mynav container-fluid">
+            <a class="logo navbar-brand" href="index.html">
+              <img src="Images/LOGO.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="modal"
+              onclick="addModal4()"
+              data-target="#myModal4"
+              aria-hidden="true"
+            >
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <img src="Images/Menu.png" alt="" />
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link plans"
+                    aria-current="page"
+                    href="plans.html"
+                  >
+                    <!-- data-toggle="modal"
+                  data-target="#myModal2"
+                  aria-hidden="true" -->
+                    <img src="Images/plan.png" alt="" />
+                    <span class="navplans">Plans</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link regions" href="region.html">
+                    <!-- data-toggle="modal"
+                  data-target="#myModal3"
+                  aria-hidden="true" -->
+                    <img src="Images/region.png" alt="" />
+                    <span class="navregion">Regions</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link services" href="#">
+                    <img src="Images/service.png" alt="" />
+                    <span class="navservice">Services</span>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="mytooltip">
+                <input
+                  class="form-control me-2 searchbar"
+                  type="search"
+                  placeholder="Search for Doctors"
+                  aria-label="Search"
+                />
+
+                <img class="searchicon" src="Images/search.png" alt="" />
+                <span class="tooltiptext">Coming Soon!</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <section id="section1">
+          <div class="mycol1">
+            <h1 class="title">ZOM</h1>
+            <p class="desc">
+              Offering <span> transparent</span>, <span>secure</span> and
+              <span>accountable</span> means for health financing worldwide
+            </p>
+          </div>
+          <div class="mycol2">
+            <img class="artimg" src="Images/ART 2.png" alt="" />
+          </div>
+        </section>
+        <div class="mytooltip2">
+          <button class="btn1">
+            Launch App <img class="arrowicon" src="Images/arrow.png" alt="" />
+          </button>
+          <span class="tooltiptext">Coming Soon!</span>
+        </div>
+        <footer>
+          <div>© 2022 ZOM. All rights reserved.</div>
+        </footer>
+      </div>
+
+      <div
+        class="modal fade animate"
+        id="myModal4"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myModalLabel"
+      >
+        <nav class="mynav4 navbar navbar-expand-lg">
+          <div class="mynav container-fluid">
+            <a class="logo navbar-brand" href="#">
+              <img src="Images/LOGO.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              data-bs-dismiss="modal"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="removeClass()"
+            >
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <img src="Images/Menu.png" alt="" />
+            </button>
+          </div>
+        </nav>
+        <div class="modal-dialog modal-fullscreen" role="document">
+          <div class="menubar modal-content animate-bottom2">
+            <div class="modal-body">
+              <div
+                class="data d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="mytooltip mb-3">
+                  <input
+                    class="form-control me-2 searchbarmobile2"
+                    type="search"
+                    placeholder="Search for Doctors"
+                    aria-label="Search"
+                  />
+                  <div class="searchiconmobilediv">
+                    <img
+                      class="searchiconmobile2"
+                      src="Images/search.png"
+                      alt=""
+                    />
+                  </div>
+                  <span class="tooltiptext">Coming Soon!</span>
+                </div>
+                <ul class="navbar-nav">
+                  <a
+                    class="nav-link plans"
+                    aria-current="page"
+                    href="plans.html"
+                    onclick="addClass()"
+                  >
+                    <!-- data-toggle="modal"
+                  data-dismiss="modal"
+                  data-target="#myModal2"
+                  aria-hidden="true" -->
+                    <li class="d-flex align-items-center nav-item mb-3">
+                      <div class="backgrounddiv">
+                        <img src="Images/plan.png" alt="" />
+                      </div>
+
+                      <span class="navplans3">Plans</span>
+                    </li>
+                  </a>
+                  <a
+                    class="nav-link regions"
+                    href="region.html"
+                    onclick="addClass()"
+                  >
+                    <!-- data-toggle="modal"
+                    data-target="#myModal3"
+                    data-dismiss="modal"
+                    aria-hidden="true" -->
+                    <li class="d-flex align-items-center nav-item mb-3">
+                      <div class="backgrounddiv">
+                        <img src="Images/region.png" alt="" />
+                      </div>
+
+                      <span class="navregion3">Regions</span>
+                    </li></a
+                  >
+                  <li class="d-flex align-items-center nav-item mb-3">
+                    <a class="nav-link services" href="#">
+                      <div class="backgrounddiv">
+                        <img src="Images/service.png" alt="" />
+                      </div>
+                    </a>
+                    <span class="navservice3">Services</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
